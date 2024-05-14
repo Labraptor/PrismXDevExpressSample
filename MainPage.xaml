@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dxco="clr-namespace:DevExpress.Maui.Controls;assembly=DevExpress.Maui.Controls"
+             x:Class="SampleMauiApp.MainPage">
+
+
+    <dxco:TabView>
+           
+       <!--<dxco:TabViewItem HeaderText="Mail" HeaderIcon="cloudsunaltsvgrepocom.png" HeaderVisibleElements="Icon" >-->
+        <dxco:TabViewItem HeaderText="Mail" HeaderIcon="cloudsunaltsvgrepocom.png" HeaderVisibleElements="Icon" >
+            <dxco:TabViewItem.Content>
+                <Grid>
+                    <Label Text="Mail List Here" 
+                        HorizontalOptions="Center" 
+                        VerticalOptions="CenterAndExpand"/>
+                </Grid>
+            </dxco:TabViewItem.Content>
+        </dxco:TabViewItem>
+
+        <!-- <dxco:TabViewItem HeaderText="Calendar" HeaderIcon="snow.png" HeaderVisibleElements="Icon" > -->
+        <dxco:TabViewItem HeaderText="Calendar" >
+            <dxco:TabViewItem.Content>
+                <Grid>
+                    <Label Text="Calendar Here" 
+                        HorizontalOptions="Center" 
+                        VerticalOptions="CenterAndExpand"/>
+                </Grid>
+            </dxco:TabViewItem.Content>
+        </dxco:TabViewItem>
+    </dxco:TabView>
+</ContentPage>
