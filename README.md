@@ -20,7 +20,7 @@ dotnet version : 8.0.204
 
 ## External dependecy used for this project : 
 
--"Prism.DryIoc.Maui" Version="9.0.179-pre" 
--"Prism.Maui" Version="9.0.179-pre" 
--"Prism.Maui.Rx" Version="9.0.179-pre" 
--"DevExpress.Maui.Controls" Version="23.2.5"
+- "Prism.DryIoc.Maui" Version="9.0.179-pre" 
+- "Prism.Maui" Version="9.0.179-pre" 
+- "Prism.Maui.Rx" Version="9.0.179-pre" 
+- "DevExpress.Maui.Controls" Version="23.2.5"
